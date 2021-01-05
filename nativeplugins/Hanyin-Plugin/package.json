@@ -1,0 +1,20 @@
+{
+	"name": "HanyinPlugin",
+	"id": "Hanyin-Plugin",
+	"version": "1.0.0",
+	"description": "汉印打印机",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "Hanyin-Plugin",
+					"class": "com.example.hanyin_plugin.HanyinApi"
+				}
+			],
+			"integrateType": "aar",
+			"minSdkVersion" : 25
+		}
+	}
+}
